@@ -25,12 +25,3 @@ green_sites = find_green_tech_sites(locations)
 print("Green Tech Sites Found:")
 for site in green_sites:
     print(f"- {site['name']}: {', '.join(site['features'])}")
-✅ Sample Output
-yaml
-Copy
-Edit
-Green Tech Sites Found:
-- Solar Valley Campus: solar power, EV charging
-- WindTech Research Lab: wind turbines
-- City Library: LED lighting
-- EcoMall: solar panels, green roofing, EV charging
